@@ -83,5 +83,5 @@ while choix != "":
         prix = float(input(f"Veuillez entrer le prix pour {choix} : "))
         menu[choix] = prix
         print(f"{choix} a été ajouté au menu avec un prix de {prix} FCFA")
-    
+    choix= input("Veuillez choisir un autre plat (ou appuyez sur Entrée pour terminer) : ")
     print("Menu mis à jour :", menu)
