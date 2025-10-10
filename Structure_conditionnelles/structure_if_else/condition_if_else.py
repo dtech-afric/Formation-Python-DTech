@@ -27,7 +27,7 @@ Si la personne a entre 18 et 65 ans, il pourrait afficher "Vous êtes adulte".
 # ============= Resultats =============
 age = int(input("Veuillez entrer votre âge: "))
 
-if age >= 18:
+if age >=18:
     print("Vous êtes majeur.")
 else:
     print("Vous êtes mineur.")
@@ -94,6 +94,7 @@ else:
 note_courses = 60
 status = "Certified" if note_courses >= 80 else "Not Certified"
 print(status)
+
 
 
 
