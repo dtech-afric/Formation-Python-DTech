@@ -27,7 +27,7 @@ def moyenne_classe(liste_etudiants):
 	moyenne = sum(notes)/len(notes)
 	return f"La moyenne de la classe est :{moyenne}"
 
-print(moyenne_classe({"Alice": 15, "Bob": 12, "Charlie": 18, "David": 10, "Eve": 14}))
+#print(moyenne_classe({"Alice": 15, "Bob": 12, "Charlie": 18, "David": 10, "Eve": 14}))
 
 
 
@@ -36,4 +36,23 @@ def meilleur_etudiant(liste_etudiants):
     meilleur = max(liste_etudiants, key=liste_etudiants.get)
     return f"Le meilleur etudiant est {meilleur} avec une note de {liste_etudiants[meilleur]}"
 
-print(meilleur_etudiant({"Alice": 15, "Bob": 12, "Charlie": 18, "David": 10, "Eve": 14}))
+#print(meilleur_etudiant({"Alice": 15, "Bob": 12, "Charlie": 18, "David": 10, "Eve": 14}))
+
+
+item_food = str(input('Enter the food name:'))
+
+food_dict = {
+	"Burger":1500,
+	"Salade":1260,
+	"Pizza": 2500,
+	"Sushi": 560
+}
+
+def getPrice(item_food):
+	price = food_dict.get(item_food, 0)
+	return price
+
+
+if __name__=="main":
+	price_food = getPrice(item_food="Burger")
+	print(price_food)
