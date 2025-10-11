@@ -1,0 +1,56 @@
+### Titre : Introduction et Outils de développement
+### Objectif : Découvrir Python, installer l’environnement et comprendre les bases de la programmation.
+
+Contenu détaillé :
+
+ 1- Présentation du langage Python et de son écosystème
+
+ 2- Installation de Python et configuration de l’IDE (ex : VSCode, PyCharm)
+
+
+### Installation de python sur Windows ###
+ 
+#### Étape 1 : Télécharger Python
+
+   Va sur le site officiel : https://www.python.org/downloads/
+
+   Clique sur “Download Python 3.13” (la dernière version stable).
+
+#### Étape 2 : Lancer l’installateur
+
+    Double-clique sur le fichier téléchargé .exe.
+
+    Très important : cocher la case “Add Python 3.x to PATH” avant de cliquer sur “Install Now”.
+
+    Cela permet d’exécuter Python depuis l’invite de commandes.
+
+#### Étape 3 : Vérifier l’installation
+
+Ouvrir Invite de commandes (cmd)
+
+Taper: python --version
+ou
+python3 --version
+
+
+Tu devrais voir la version de Python installée.
+
+#### Étape 4 : Installer pip (si non installé)
+
+pip est normalement installé automatiquement. Vérifier avec :
+
+pip --version
+
+
+Sinon : guide pip installation
+
+#### Étape 5 : Installer un IDE (optionnel)
+
+VSCode (recommandé) : https://code.visualstudio.com/
+
+PyCharm Community Edition : https://www.jetbrains.com/pycharm/download/
+
+Thonny : léger pour débutants https://thonny.org/
+
+
+Documentation officielle Python: https://docs.python.org/3/
