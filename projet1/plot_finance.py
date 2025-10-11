@@ -1,10 +1,19 @@
+
+#### ======================================BROUILLON================================================================
+# Fichier: projet1/plot_finance.py
+# Auteur: Eric Koulodji
+# Date: 2025-10-10
+# Description: Application de quiz interactif sur les thèmes de la Data Science, Intelligence Artificielle et Culture Numérique.
+# Utilise tkinter pour l'interface graphique et gère un leaderboard local en JSON.
+#### ==============================================================================================================
+
 import tkinter as tk
 from tkinter import ttk, messagebox
 import json, random, os
 from datetime import datetime
 
 # -------------------------
-# Config
+# Config 
 # -------------------------
 QUESTIONS_PER_PART = 10
 POINTS_CORRECT = 10
